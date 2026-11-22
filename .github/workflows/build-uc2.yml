@@ -426,7 +426,7 @@ jobs:
             generators: 'Ninja'
           }
           - {
-            os: ubuntu-latest,
+            os: ubuntu-24.04,
             arch: x86,
             name: 'ubuntu-x86 cmake shared',
             shared: 'yes',
@@ -444,7 +444,7 @@ jobs:
             generators: 'Ninja'
           }
           - {
-            os: ubuntu-latest,
+            os: ubuntu-24.04,
             arch: x86,
             name: 'ubuntu-x86 cmake static',
             shared: 'no',
@@ -567,7 +567,7 @@ jobs:
       matrix:
         config:
           - {
-            os: ubuntu-latest,
+            os: ubuntu-24.04,
             arch: x86_64,
             name: 'alpine-x86_64 cmake shared',
             shared: 'yes',
@@ -576,7 +576,7 @@ jobs:
             generators: 'Ninja'
           }
           - {
-            os: ubuntu-latest,
+            os: ubuntu-24.04,
             arch: x86_64,
             name: 'alpine-x86_64 cmake static',
             shared: 'no',
@@ -585,7 +585,7 @@ jobs:
             generators: 'Ninja'
           }
           - {
-            os: ubuntu-latest,
+            os: ubuntu-24.04,
             arch: x86,
             name: 'alpine-x86 cmake shared',
             shared: 'yes',
@@ -594,7 +594,7 @@ jobs:
             generators: 'Ninja'
           }
           - {
-            os: ubuntu-latest,
+            os: ubuntu-24.04,
             arch: x86,
             name: 'alpine-x86 cmake static',
             shared: 'no',
@@ -603,7 +603,7 @@ jobs:
             generators: 'Ninja'
           }
           - {
-            os: ubuntu-latest,
+            os: ubuntu-24.04,
             arch: aarch64,
             name: 'alpine-aarch64 cmake',
             artifact: 'alpine-cmake-aarch64.7z',
@@ -612,7 +612,7 @@ jobs:
             distro: ubuntu24.04
           }
           - {
-            os: ubuntu-latest,
+            os: ubuntu-24.04,
             arch: ppc64le,
             name: 'alpine-ppc64le cmake',
             artifact: 'alpine-cmake-ppc64le.7z',
